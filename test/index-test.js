@@ -33,7 +33,7 @@ describe('Arrays', function() {
   })
 
   describe('destructivelyRemoveFirstKitten()', function() {
-    it('removes the First kitten from the kittens array', function() {
+    console.log('removes the First kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyRemoveFirstKitten()
 
