@@ -24,7 +24,7 @@ describe('Arrays', function() {
   })
 
   describe('destructivelyRemoveLastKitten()', function() {
-    it('removes the last kitten from the kittens array', function() {
+    console.log('removes the last kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyRemoveLastKitten()
 
